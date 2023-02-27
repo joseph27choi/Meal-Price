@@ -1,5 +1,5 @@
 # Module for Food class
-
+from menu import MENU
 
 ### START
 
@@ -51,9 +51,8 @@ class Food:
     # gets all the attributes of the object and packs it up into a dictionary
     def get_members(self):
         member_dict = {
-            "name": self.name,
-            "price": self.get_price(),
-            "title": self.get_title()
+            "name": self.get_title(),
+            "price": self.get_price()
         }
         return member_dict
 
