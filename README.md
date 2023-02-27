@@ -14,4 +14,8 @@ Taco,
 Tortilla Salad
 
 However, the prices have fallen off. To access the prices, use this python program and input the name of the menu item. When you are done, select 
-<h5 style="color: red">control + d</h5>
+<span>
+  <h5 style="color: red;"> 
+    ctrl + d
+  </h5>
+</span>
